@@ -1134,7 +1134,7 @@ button{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border:3px dashed var(--simple);
+    border:3px solid var(--simple);
     margin-top: 15px;
 }
 
@@ -1171,9 +1171,10 @@ button:hover{
 .footer-area .list-link .contact i{
     margin-right: 10px;
     margin-top: 6px;
+    color: var(--secondary);
 }
-.footer-area .list-link li{
-    list-style: none;
+.footer-area .list-link .list{
+    margin-top: 15px;
 }
 .footer-area .list-link li a{
     text-decoration: none;
@@ -1181,6 +1182,10 @@ button:hover{
     cursor: pointer;
 }.footer-area .list-link li a:hover{
    font-weight: 600;
+}
+.footer-area .icons .d-flex p{
+    margin: 3px ;
+    cursor: pointer;
 }
 .footer-area .social h5{
     color: black;
@@ -1190,6 +1195,7 @@ button:hover{
     display: block;
     font-size: 22px;
     margin: 5px;
+    color: var(--secondary);
 }
 
 .footer-area .submit{}
